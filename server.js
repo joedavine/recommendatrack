@@ -7,7 +7,7 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 app.get('/', function (req, res) {
-    res.render('test', {layout: 'main'});
+    res.render('home', {layout: 'main'});
 });
 
 app.listen(3000);
