@@ -1,0 +1,27 @@
+{
+  "name": "recommendatrack",
+  "version": "1.0.0",
+  "description": "Exactly what it says on the tine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joedavine/recommendatrack.git"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "Joe Davine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joedavine/recommendatrack/issues"
+  },
+  "homepage": "https://github.com/joedavine/recommendatrack",
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1",
+    "express3-handlebars": "^0.5.2"
+  }
+}
