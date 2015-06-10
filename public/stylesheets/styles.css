@@ -4,6 +4,27 @@ body {
     font-family: 'arial' sans-serif;
 }
 
+.button {
+    text-transform: uppercase;
+    border: 1px;
+    padding: 10px;
+    background-color: #3446c9;
+    transition-duration: 0.8s;
+    border-radius: 120px;
+    color: white;
+    text-decoration: none;   
+}
+
+.button:hover {
+    background-color: #18205c;
+    transition-duration: 0.8s;
+}
+
+.noStyle {
+    text-decoration: none;
+}
+
+
 /* MAIN CONTAINER */
 #mainContainer {
     max-width: 1000px;
@@ -12,7 +33,12 @@ body {
 
 #mainContainer h1 {
     text-align: center;
-    font-family: 'arial' sans-serif;
+}
+
+.logoHeader {
+    color: #3446c9;
+    font-family: 'futura' sans-serif;
+    text-transform: uppercase;
 }
 
 /* CHOOSE SECTION */
